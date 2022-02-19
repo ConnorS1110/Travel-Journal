@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.banner {
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 50px;
+}
+
+.banner > p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.0075em;
+    margin: 0;
+    text-align: center;
+}
+
+.globe {
+    width: 25px;
+}
+
+.globe > path {
+    fill: #FFFFFF;
+}
+
+.card {
+    margin: 0 32px 0 40px;
+    padding: 18px 0px 18px 0px;
+    border-bottom: 1px solid #F5F5F5;
+    display: flex;
+    font-family: "Inter", sans-serif;
+}
+
+.card-image-container {
+    width: 125px;
+    height: 175px;
+    object-fit: cover;
+}
+
+.card-image1 {
+    width: 125px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-image2 {
+    width: 125px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-image3 {
+    width: 125px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.info-container {
+    padding: 20px 0 0 20px;
+}
+
+.location-info {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    font-weight: 400;
+}
+
+.marker {
+    height: 10px;
+    padding-right: 4px;
+}
+
+.marker > path {
+    fill: #F55A5A;
+}
+
+.country {
+    font-size: 10.25px;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    padding-right: 12px;
+}
+
+.google-maps {
+    color: #918E9B;
+    font-size: 10.25px;
+}
+
+.google-maps > a:link, a:visited {
+    color: inherit;
+}
+
+.name {
+    margin: 0;
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.dates {
+    margin: 0;
+    padding-bottom: 9px;
+    font-weight: 700;
+    font-size: 10.25px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 10.25px;
+}
